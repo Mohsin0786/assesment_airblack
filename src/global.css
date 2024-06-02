@@ -13,6 +13,14 @@
 body {
   margin: 0;
   line-height: normal;
+  background-color: #0F1014;
+}
+@media (max-width: 380px) {
+
+  header>img{
+    width: 375px;
+    height: 124px;
+  }
 }
 :root {
   /* fonts */
