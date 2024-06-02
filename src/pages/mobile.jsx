@@ -22,13 +22,13 @@ export default function Mobile() {
         <Details/>
         <div className={styles.div}>
         <div className={styles.vectorParent}>
-          <img className={styles.vectorIcon} alt="" src="../../public/left.svg" />
+          <img className={styles.vectorIcon} alt="" src="../../left.svg" />
 
             <p className={styles.getCertifiedFrom}>Get Certified From <br/>India’s Biggest <br/>Beauty Platform</p>
 
-          <img className={styles.vectorIcon1} alt="" src="../../public/right.svg" />
+          <img className={styles.vectorIcon1} alt="" src="../../right.svg" />
         </div>
-        <img className={styles.image676Icon} alt="" src="../../public/certificate.svg" />
+        <img className={styles.image676Icon} alt="" src="../../certificate.svg" />
       </div>
       <Footer/>
       </div>

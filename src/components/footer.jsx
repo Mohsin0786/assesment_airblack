@@ -25,10 +25,10 @@ export default function footer({ className = "" }) {
             </div>
           </div>
           <div className={styles.instagramParent}>
-            <img className={styles.Icons} alt="" src="../../public/Instagram.svg" />
-            <img className={styles.Icons} alt="" src="../../public/fb.svg" />
-            <img className={styles.Icons} alt="" src="../../public/Linkedin.svg" />
-            <img className={styles.Icons} alt="" src="../../public/twitter.svg" />
+            <img className={styles.Icons} alt="" src="../../Instagram.svg" />
+            <img className={styles.Icons} alt="" src="../../fb.svg" />
+            <img className={styles.Icons} alt="" src="../../Linkedin.svg" />
+            <img className={styles.Icons} alt="" src="../../twitter.svg" />
           </div>
         </div>
       </div>

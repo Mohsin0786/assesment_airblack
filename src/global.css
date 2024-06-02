@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'MyFont';
-  src: url('../public/fonts/RocaOne-Rg.ttf') format('truetype');
+  src: url('../fonts/RocaOne-Rg.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
