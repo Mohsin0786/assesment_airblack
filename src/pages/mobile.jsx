@@ -4,7 +4,7 @@ import ContainerForm from "../components/container-form";
 import Footer from "../components/footer";
 import {Details} from "../components/details";
 import styles from "./mobile.module.css";
-import './App.module.css'
+import '../App.module.css'
 export default function Mobile() {
   // ../../public/logo.svg
   return (
