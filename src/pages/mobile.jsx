@@ -5,6 +5,7 @@ import Footer from "../components/footer";
 import {Details} from "../components/details";
 import styles from "./mobile.module.css";
 export default function Mobile() {
+  // ../../public/logo.svg
   return (
     <>
     <header className="App-header">
@@ -12,7 +13,7 @@ export default function Mobile() {
           alt=""
           src="/hero.png"
         />
-        <div className={styles.headerContainer}><img src="../../public/logo.svg" alt="" srcset="" />
+        <div className={styles.headerContainer}><img src="../assets/react.svg" alt="" srcset="" />
         <p>PRESENTS</p></div>
       </header>
       <div >
