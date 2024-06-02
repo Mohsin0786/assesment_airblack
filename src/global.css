@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PingFang+SC:wght@400;600&display=swap");
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('../public/fonts/RocaOne-Rg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-proxima-nova: "Proxima Nova";
+  --font-fontspring-demo---roca-one-rg: "MyFont";
+  --registerairblackco-pingfang-sc-regular-1356: "PingFang SC";
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-5xl: 24px;
+  --registerairblackco-pingfang-sc-regular-1356-size: 13.6px;
+  --font-size-smi-8: 12.8px;
+  --font-size-xs: 12px;
+  --font-size-3xs: 10px;
+
+  /* Colors */
+  --registerairblackco-nero: #fff;
+  --registerairblackco-alabaster: #fafafa;
+  --registerairblackco-nero-14: rgba(255, 255, 255, 0.14);
+  --registerairblackco-black: #000;
+  --color-whitesmoke: #f5f5f5;
+  --registerairblackco-alto: #d9d9d9;
+  --registerairblackco-silver: #bfbfbf;
+  --registerairblackco-emperor: #505050;
+  --color-hotpink: #e84d84;
+  --registerairblackco-alto1: #d2d2d2;
+  --registerairblackco-cream-can: #f7c852;
+
+  /* Gaps */
+  --gap-5xl: 24px;
+  --gap-mid-3: 17.3px;
+  --gap-6xl: 25px;
+  --gap-13xl: 32px;
+  --gap-2xs: 11px;
+  --gap-5xs: 8px;
+  --gap-xl: 20px;
+  --gap-3xs: 10px;
+  --gap-5xs-1: 7.1px;
+  --gap-9xs: 4px;
+  --gap-6xs: 7px;
+  --gap-xs: 12px;
+
+  /* Paddings */
+  --padding-42xl-6: 61.6px;
+  --padding-43xl-4: 62.4px;
+  --padding-3xs-1: 9.1px;
+  --padding-94xl-4: 113.4px;
+  --padding-12xs-1: 0.1px;
+  --padding-12xs-9: 0.9px;
+  --padding-12xs-8: 0.8px;
+  --padding-11xl: 30px;
+  --padding-5xl: 24px;
+  --padding-3xs: 10px;
+  --padding-6xs: 7px;
+  --padding-xs: 12px;
+  --padding-4xs: 9px;
+  --padding-7xs: 6px;
+  --padding-12xs-3: 0.3px;
+  --padding-12xs-7: 0.7px;
+  --padding-7xs-1: 5.1px;
+  --padding-xs-1: 11.1px;
+  --padding-12xs-2: 0.2px;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+  --br-9xs: 4px;
+  --br-3xs: 10px;
+  --br-smi: 13px;
+  --br-8xs: 5px;
+}

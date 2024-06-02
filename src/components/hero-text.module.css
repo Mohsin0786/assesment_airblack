@@ -1,0 +1,211 @@
+.professionalOnline {
+    margin: 0;
+    font-size: 6rem;
+    line-height: 100px;
+  }
+  .title {
+ width:100%;
+    line-height: 30px;
+    font-family: var(--font-fontspring-demo---roca-one-rg);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  .svg1509293611944Icon {
+    width: 9px;
+    position: relative;
+    height: 12.1px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .divframer171cvlq {
+    width: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .certificationProgramme {
+    font-size:18px;
+  }
+  .p {
+    align-self: stretch;
+    padding: var(--padding-12xs-8) 0 var(--padding-12xs-2);
+  }
+  .divframer171cvlqParent,
+  .divframerYhfsxu,
+  .p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .divframer171cvlqParent {
+    height: 50px;
+    border-radius: var(--br-8xs);
+    background-color: var(--registerairblackco-nero-14);
+    flex-direction: row;
+    align-items: center;
+    padding: var(--padding-7xs-1) var(--padding-xs-1);
+    gap: var(--gap-6xs);
+  }
+  .svg335647554937Icon {
+    width: 11px;
+    position: relative;
+    height: 10.6px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .divframer1jff7sf {
+    width: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .rated4855 {
+    font-size: 18px;
+  }
+  .divframer1j9x5ww,
+  .p1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .p1 {
+
+    align-items: flex-end;
+    padding: var(--padding-12xs-3) 0 var(--padding-12xs-7);
+  }
+  .divframer1j9x5ww {
+    overflow: hidden;
+    align-items: flex-start;
+  }
+  .divframer1htwsli,
+  .divframer2kuydl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .divframer2kuydl {
+    border-radius: var(--br-smi);
+    justify-content: flex-end;
+    gap: var(--gap-9xs);
+    text-align: right;
+    color: var(--registerairblackco-cream-can);
+  }
+  .divframer1htwsli {
+    width:460px;
+    margin-top: 5px;
+    justify-content: space-around;
+    gap: var(--gap-3xs);
+    font-size: var(--font-size-xs);
+    color: var(--registerairblackco-alabaster);
+  }
+  .svg78612104852Icon {
+    width: 14px;
+    position: relative;
+    height: 14px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .icon {
+    width: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+ .text  {
+    flex: 1;
+
+    line-height: 18.8px;
+  }
+  .div,
+  .heroText,
+  .points {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    
+  }
+  .div {
+    width: 295px;
+    flex-direction: row;
+  }
+  .heroText,
+  .points {
+    flex-direction: column;
+    margin: 22px;
+  
+    font-size: 18px;
+
+
+    color: var(--registerairblackco-alto1);
+  }
+  .heroText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: var(--gap-5xs-1);
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--registerairblackco-nero);
+    font-family: var(--font-proxima-nova);
+  }
+  
+
+  @media (max-width: 380px) {
+    .professionalOnline {
+      font-family: var(--font-fontspring-demo---roca-one-rg);
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 30px;
+      text-align: left;
+    }
+    .certificationProgramme{
+      font-family: var(--font-proxima-nova);
+      font-size: 12px;
+      font-weight: 400;
+    }
+    .divframer1htwsli{
+      width: 327px;
+      justify-content: flex-start;
+      margin-top: 2px;
+    }
+
+    .divframer171cvlqParent{
+      width:  166.16px;
+      height:  24.22px;
+      padding:5.11px 11.08px 5.11px 11.08px;
+ 
+    }
+    .rated4855{
+      font-family: var(--font-proxima-nova);
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14.4px;
+
+
+    }
+    .divframer1j9x5ww{
+        width:83px;
+    height: 15.99px;
+
+
+    }
+
+    .text{
+      font-family: var(--font-proxima-nova);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16.8px;
+      text-align: left;
+
+    }
+    .heroText, .points{
+      margin: 6px 26px;
+        align-items: end;
+        letter-spacing: 0.1px;
+    }
+  }

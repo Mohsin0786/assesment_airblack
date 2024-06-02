@@ -1,0 +1,225 @@
+.fillTheForm {
+    position: relative;
+    line-height: 14.4px;
+    text-transform: uppercase;
+  }
+  .fillTheFormBelowToEnquireWrapper {
+    width: 500px;
+    /* align-self: stretch; */
+    border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+    background-color: var(--color-hotpink);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+     /* padding: var(--padding-7xs); */
+    padding:10px ;
+    z-index: 1;
+  }
+  .enterYourName {
+    position: relative;
+    line-height: 16px;
+    font-weight: 600;
+  }
+  .egAneeshaMehra {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .input {
+    border-radius: var(--br-9xs);
+    background-color: var(--registerairblackco-nero);
+    border: 1px solid var(--registerairblackco-alto);
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-6xs) var(--padding-xs) var(--padding-4xs);
+    font-size: var(--registerairblackco-pingfang-sc-regular-1356-size);
+    color: var(--registerairblackco-silver);
+  }
+  .div,
+  .enterYourNameParent,
+  .input {
+    align-self: stretch;
+    display: flex;
+  }
+  .enterYourNameParent {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-2xs);
+  }
+  .div {
+    width: 22px;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .vectorIcon {
+    width: 10.2px;
+    position: relative;
+    height: 6.9px;
+  }
+  .input1 {
+    padding: 8px;
+    width: 60px;
+    border-radius: var(--br-9xs);
+    background-color: var(--registerairblackco-nero);
+    border: 1px solid var(--registerairblackco-alto);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .eg0000000000 {
+    align-self: stretch;
+    position: relative;
+  }
+  .divplaceholder,
+  .input2,
+  .inputParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .divplaceholder {
+    overflow: hidden;
+    flex-direction: column;
+  }
+  .input2,
+  .inputParent {
+    flex-direction: row;
+  }
+  .input2 {
+    flex: 1;
+    border-radius: var(--br-9xs);
+    background-color: var(--registerairblackco-nero);
+    border: 1px solid var(--registerairblackco-alto);
+    padding: var(--padding-6xs) var(--padding-xs) var(--padding-4xs);
+    color: var(--registerairblackco-silver);
+  }
+  .inputParent {
+    align-self: stretch;
+    gap: var(--gap-2xs);
+    font-size: var(--registerairblackco-pingfang-sc-regular-1356-size);
+  }
+  .chooseTheMost,
+  .svgIcon {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .chooseTheMost {
+    align-self: stretch;
+    width: 207px;
+    display: flex;
+    align-items: center;
+  }
+  .svgIcon {
+    width: 12px;
+    height: 12px;
+    overflow: hidden;
+  }
+  .frameGroup,
+  .input3 {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+  }
+  .input3 {
+    border-radius: var(--br-9xs);
+    background-color: var(--registerairblackco-nero);
+    border: 1px solid var(--registerairblackco-alto);
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--padding-6xs) var(--padding-xs) var(--padding-4xs);
+    font-size: var(--registerairblackco-pingfang-sc-regular-1356-size);
+    color: var(--registerairblackco-silver);
+  }
+  .frameGroup {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+  }
+  .submit {
+    position: relative;
+    line-height: 16.8px;
+  }
+  .divframer923v64,
+  .p {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .p {
+    align-self: stretch;
+    align-items: center;
+    padding: var(--padding-12xs-1) 0 var(--padding-12xs-9);
+  }
+  .divframer923v64 {
+    align-items: flex-start;
+  }
+  .divframerZlvey9,
+  .form,
+  .frameParent {
+
+    display: flex;
+    align-items: center;
+  }
+  .divframerZlvey9 {
+    width: 307px;;
+    border-radius: var(--br-9xs);
+    background: linear-gradient(90.32deg, #f56563, #e54988);
+    height: 36px;
+    flex-direction: row;
+    justify-content: center;
+    padding: var(--padding-3xs-1) var(--padding-94xl-4);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: var(--registerairblackco-alabaster);
+    font-family: var(--font-proxima-nova);
+  }
+  .form,
+  .frameParent {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .form {
+    margin-bottom: 52px;
+    width: 500px;
+    border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+    background-color: var(--registerairblackco-nero);
+    overflow: hidden;
+    padding: var(--padding-3xs);
+    gap: var(--gap-xl);
+    z-index: 0;
+    margin-top: -1px;
+    font-size: var(--font-size-smi-8);
+    color: var(--registerairblackco-emperor);
+    font-family: var(--registerairblackco-pingfang-sc-regular-1356);
+  }
+  .frameParent {
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--registerairblackco-nero);
+    font-family: var(--font-proxima-nova);
+  }
+
+  .input2::placeholder{
+    opacity: 0.5;
+  }
+  
+
+  @media (max-width: 380px) {
+
+    .form{
+      width: 327px;
+    }
+    .fillTheFormBelowToEnquireWrapper{
+      width: 327px;
+    }
+  }

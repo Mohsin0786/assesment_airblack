@@ -1,0 +1,147 @@
+.heroSection {
+    width: 375px;
+    /* background-color: #0f1014; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px var(--padding-5xl) var(--padding-11xl);
+    box-sizing: border-box;
+    gap: var(--gap-5xl);
+  }
+  .vectorIcon {
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 36px;
+    object-fit: contain;
+  }
+  .getCertifiedFrom {
+    margin: 0;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .getCertifiedFromContainer {
+    position: relative;
+    line-height: 30px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  .vectorIcon1 {
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 36px;
+  }
+  .vectorParent {
+    /* align-self: stretch; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-6xl);
+  }
+  .image676Icon {
+    width: 361px;
+    position: relative;
+    height: 380px;
+    object-fit: cover;
+  }
+  .div,
+  .mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .div {
+    color: var(--color-whitesmoke);
+    width: 100%;
+    margin: 30px;
+    height: 500px;
+    align-items: center;
+    justify-content: space-around;
+    padding: var(--padding-11xl) var(--padding-5xl);
+    box-sizing: border-box;
+    gap: 14px;
+  }
+  .mobile {
+    width: 100%;
+    position: relative;
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-whitesmoke);
+    font-family: var(--font-fontspring-demo---roca-one-rg);
+  }
+  
+  .headerContainer{
+    font-family: Inter;
+    display: flex;
+    height: 63px;
+    width: 200px;
+    color: white;
+    position: absolute;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  @media (max-width: 380px) {
+    .headerContainer > img{
+    
+      width: 68.66px;
+      height: 28.44px;
+    }
+
+    .headerContainer{
+      top: 29%;
+      left: 24%;
+    }
+    .headerContainer > p{
+     font-size: 10px;
+     letter-spacing: 2.2px;
+    }
+
+    .div {
+
+      width: auto;
+      margin: 30px;
+      height: 394px;
+    }
+    .getCertifiedFrom{
+      font-family: var(--font-fontspring-demo---roca-one-rg);
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+
+    }
+
+    .image676Icon {
+      width: 361px;
+      position: relative;
+      height: 252px;
+      /* object-fit: cover; */
+    }
+
+    .vectorIcon1{
+      width: 31.5px;
+height: 5.62px;
+
+
+
+    }
+    .vectorIcon{
+      width: 31.5px;
+height: 5.62px;
+
+    }
+
+    .vectorParent {
+      width:375px;
+    }
+  }
