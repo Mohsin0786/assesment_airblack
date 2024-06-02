@@ -13,7 +13,7 @@ export default function Mobile() {
           alt=""
           src="/hero.png"
         />
-        <div className={styles.headerContainer}><img src="../assets/react.svg" alt="" srcset="" />
+        <div className={styles.headerContainer}><img src="../../logo.svg" alt="" srcset="" />
         <p>PRESENTS</p></div>
       </header>
       <div >
